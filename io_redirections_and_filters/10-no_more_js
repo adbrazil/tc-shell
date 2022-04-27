@@ -1,0 +1,9 @@
+#!/bin/bash
+for i in js/*.js ;do 
+     if [ ! -d "$i"  ];
+       # then rm $i ; fi ;
+        then  echo arquivo; 
+     else
+         echo $i/*.js;fi;
+          
+done
