@@ -1,0 +1,22 @@
+#!/bin/bash
+
+function limpaJs() {
+    
+   for i in $1 ;do 
+     echo "$i-nome"
+     if [ ! -d "$i"  ];
+       # then rm $i ; fi ;
+        #then rm $i; 
+        then echo arquivo;  
+     else
+         limpaJs "$i"
+    fi;
+done
+
+}
+
+
+
+for i in js/*.js ;do 
+     limpaJs $i          
+done
