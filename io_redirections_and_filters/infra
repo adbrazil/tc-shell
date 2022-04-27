@@ -1,8 +1,0 @@
-#!bin/bash
-
-mkdir js
-for i in 1 2 3 4 5; do
-    touch js/$i.js;
-    mkdir js/teste$i.js;
-done
-     
